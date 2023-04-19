@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Note App</title>
+    </head>
+
+    <body>
+        <h1>Note App</h1>
+        <h2>Note down your important things</h2>
+
+        <input type="text" name="search Bar" id="search-bar" placeholder="Search">
+        <select name="filterBy" id="filter-by">
+            <option value="byEdited">sort by last edited</option>
+            <option value="byCreated">sort by last created</option>
+            <option value="alphabetical">sort alphabetically</option>
+        </select>
+
+        <div id="notes"> </div>
+        <button id="new-note">Add Note</button>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script>
+        <script src="uuidv4.js"></script>
+        <script src="note-function.js"></script>
+        <script src="note-app.js"></script>
+
+    </body>
+
+
+
+</html>
